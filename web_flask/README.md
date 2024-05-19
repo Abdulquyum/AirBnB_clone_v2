@@ -1,0 +1,1 @@
+This folder was created to add a Framework called FLASK to this AirBnB_clone repository. This is one of the Python programming language Framework.\n Also to practice and master this framework for future purposes
