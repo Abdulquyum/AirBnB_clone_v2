@@ -17,7 +17,7 @@ def hbnb_slash():
     return 'HBNB'
 
 
-@app.route('/c/<text>', strict_slash=False)
+@app.route('/c/<text>', strict_slashes=False)
 def text_slash():
     return f"C {text.replace('_', ' ')}"
 
