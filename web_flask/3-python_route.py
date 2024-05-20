@@ -24,7 +24,7 @@ def text_slash(text):
 
 @app.route('/python/', strict_slashes=False)
 @app.route('/python/<text>', strict_slashes=False)
-def python_slash(text='cool'):
+def python_slash(text='is cool'):
     return f"Python {text.replace('_', ' ')}"
 
 
